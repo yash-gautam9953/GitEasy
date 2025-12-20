@@ -14,9 +14,24 @@ A simple CLI tool that pushes your code to GitHub with **just one command**!
 
 ## 📦 Installation
 
-### Option 1: Quick Download (Recommended)
+### Option 1: Windows Installer (Recommended - One-Click Install) 🎯
 
-Open your project folder in terminal and run:
+Download and run the installer - it automatically adds GitEasy to PATH!
+
+1. **[Download GitEasy Installer](https://yash-gautam9953.github.io/GIT-AUTOMATION-TOOL/)** (or from [Releases](https://github.com/yash-gautam9953/GIT-AUTOMATION-TOOL/releases))
+2. Run `GitEasy-Setup-1.0.exe`
+3. Click through the installer (it will automatically add to PATH)
+4. Open **new terminal** and use from anywhere:
+
+```bash
+giteasy push
+```
+
+**That's it!** 🚀 No manual PATH setup needed!
+
+### Option 2: Direct EXE (Use in Project Folder)
+
+Download the `.exe` file directly and use it in your project folder:
 
 **PowerShell:**
 
@@ -36,25 +51,6 @@ Now use it:
 ./giteasy push
 ```
 
-### Option 2: Install Globally (Use from Any Project)
-
-**PowerShell (as Administrator):**
-
-```powershell
-# Download to C:\Tools
-New-Item -ItemType Directory -Force -Path C:\Tools
-Invoke-WebRequest -Uri "https://github.com/yash-gautam9953/GIT-AUTOMATION-TOOL/releases/latest/download/giteasy.exe" -OutFile "C:\Tools\giteasy.exe"
-
-# Add to PATH permanently
-[Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\Tools", "Machine")
-```
-
-Restart terminal, then use from anywhere:
-
-```bash
-giteasy push
-```
-
 ### Option 3: Build from Source (For Developers)
 
 ```bash
@@ -63,7 +59,15 @@ go build -o giteasy.exe
 
 ## 🎯 Usage
 
-### If in Project Folder
+### If Using Installer (Recommended)
+
+After installing, use from any project folder:
+
+```bash
+giteasy push
+```
+
+### If Using Direct EXE
 
 ```bash
 ./giteasy push
