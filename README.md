@@ -51,12 +51,6 @@ Now use it:
 ./giteasy push
 ```
 
-### Option 3: Build from Source (For Developers)
-
-```bash
-go build -o giteasy.exe
-```
-
 ## 🎯 Usage
 
 ### If Using Installer (Recommended)
