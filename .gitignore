@@ -2,6 +2,7 @@
 main.go
 go.mod
 go.sum
+installer.iss
 
 # Binaries (don't push .exe files to repo)
 *.exe
