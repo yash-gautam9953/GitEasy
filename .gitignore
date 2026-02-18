@@ -1,0 +1,28 @@
+# Source code (keep private)
+main.go
+go.mod
+go.sum
+
+# Binaries (don't push .exe files to repo)
+*.exe
+git-autopush
+
+# Go build artifacts
+*.o
+*.a
+*.so
+
+# Go test coverage
+*.out
+coverage.html
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
