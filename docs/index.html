@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="GitEasy - Push your code to GitHub with just one command! Simple CLI tool for Windows."
+    />
+    <meta
+      name="keywords"
+      content="git, github, automation, cli, tool, windows"
+    />
+    <meta name="author" content="Yash Gautam" />
+    <title>GitEasy - One Command Git Push</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+
+    <!-- Header -->
+    <header>
+      <nav class="container">
+        <div class="logo">
+          <span class="icon">🚀</span>
+          <span>GitEasy</span>
+        </div>
+        <div class="nav-links">
+          <a href="#features">Features</a>
+          <a href="#download">Download</a>
+          <a href="#usage">Usage</a>
+          <a
+            href="https://github.com/yash-gautam9953/GIT-AUTOMATION-TOOL"
+            target="_blank"
+            >GitHub</a
+          >
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="glitch" data-text="GitEasy">GitEasy</h1>
+          <p class="tagline">
+            Push Your Code to GitHub with
+            <span class="highlight">One Command</span>
+          </p>
+          <p class="description">
+            A simple CLI tool that automates your entire Git workflow
+          </p>
+
+          <div class="cta-buttons">
+            <a href="#download" class="btn btn-primary">
+              <span class="icon">⬇️</span>
+              Download Installer
+            </a>
+            <a
+              href="https://github.com/yash-gautam9953/GIT-AUTOMATION-TOOL"
+              target="_blank"
+              class="btn btn-secondary"
+            >
+              <span class="icon">⭐</span>
+              Star on GitHub
+            </a>
+          </div>
+
+          <div class="quick-demo">
+            <div class="terminal">
+              <div class="terminal-header">
+                <span class="btn-close"></span>
+                <span class="btn-minimize"></span>
+                <span class="btn-maximize"></span>
+                <span class="terminal-title">PowerShell</span>
+              </div>
+              <div class="terminal-body">
+                <div class="command-line">
+                  <span class="prompt">PS C:\MyProject></span>
+                  <span class="command typing">giteasy push</span>
+                </div>
+                <div class="output">
+                  <p>🚀 Starting Git automation...</p>
+                  <p>✅ Git initialized</p>
+                  <p>📝 Adding all files...</p>
+                  <p>✅ Files added</p>
+                  <p>💾 Committing changes...</p>
+                  <p>✅ Changes committed</p>
+                  <p>🚀 Pushing to GitHub...</p>
+                  <p class="success">✨ Successfully pushed to GitHub! ✨</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+      <div class="container">
+        <h2 class="section-title">Why GitEasy?</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">⚡</div>
+            <h3>Lightning Fast</h3>
+            <p>
+              One command replaces 6+ git commands. Save time and boost
+              productivity.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🎯</div>
+            <h3>Auto-Configure</h3>
+            <p>
+              Automatically initializes Git and adds remote if needed. Just
+              focus on coding!
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🛡️</div>
+            <h3>Safe & Reliable</h3>
+            <p>
+              Runs standard Git commands under the hood. Your code is always
+              safe.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🎨</div>
+            <h3>Beautiful CLI</h3>
+            <p>
+              Colorful output with emojis makes the terminal experience
+              enjoyable.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">📦</div>
+            <h3>Easy Install</h3>
+            <p>
+              One-click installer automatically adds to PATH. No configuration
+              needed!
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🆓</div>
+            <h3>Free & Open Source</h3>
+            <p>MIT licensed. Use it anywhere, modify it, contribute to it!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Comparison Section -->
+    <section class="comparison">
+      <div class="container">
+        <h2 class="section-title">Before vs After</h2>
+        <div class="comparison-grid">
+          <div class="comparison-card before">
+            <h3>😫 Traditional Way</h3>
+            <div class="terminal small">
+              <div class="terminal-body">
+                <p class="command">git init</p>
+                <p class="command">git add .</p>
+                <p class="command">git commit -m "message"</p>
+                <p class="command">git remote add origin &lt;url&gt;</p>
+                <p class="command">git branch -M main</p>
+                <p class="command">git push -u origin main</p>
+              </div>
+            </div>
+            <p class="comparison-note">
+              6+ commands, easy to forget, time-consuming
+            </p>
+          </div>
+          <div class="vs">VS</div>
+          <div class="comparison-card after">
+            <h3>😎 With GitEasy</h3>
+            <div class="terminal small">
+              <div class="terminal-body">
+                <p class="command">giteasy push</p>
+                <p class="success">✨ Done!</p>
+              </div>
+            </div>
+            <p class="comparison-note">One command, automatic, fast</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+      <div class="container">
+        <h2 class="section-title">Download GitEasy</h2>
+        <div class="download-options">
+          <div class="download-card primary">
+            <div class="badge">Recommended</div>
+            <div class="download-icon">💻</div>
+            <h3>Windows Installer</h3>
+            <p>One-click installation with automatic PATH setup</p>
+            <ul class="features-list">
+              <li>✅ Automatic PATH configuration</li>
+              <li>✅ Works from any folder</li>
+              <li>✅ Easy uninstaller included</li>
+              <li>✅ Desktop shortcut (optional)</li>
+            </ul>
+            <a
+              href="https://github.com/yash-gautam9953/GIT-AUTOMATION-TOOL/releases/latest/download/GitEasy-Setup-1.0.exe"
+              class="btn btn-primary btn-large"
+              download
+            >
+              <span class="icon">⬇️</span>
+              Download Installer (1 MB)
+            </a>
+            <p class="version">Version 1.0 • Windows 7+</p>
+          </div>
+          <div class="download-card">
+            <div class="download-icon">📦</div>
+            <h3>Portable EXE</h3>
+            <p>Download and use directly in your project folder</p>
+            <ul class="features-list">
+              <li>✅ No installation needed</li>
+              <li>✅ Use in specific projects</li>
+              <li>✅ Portable and lightweight</li>
+              <li>✅ Perfect for testing</li>
+            </ul>
+            <a
+              href="https://github.com/yash-gautam9953/GIT-AUTOMATION-TOOL/releases/latest/download/giteasy.exe"
+              class="btn btn-secondary btn-large"
+              download
+            >
+              <span class="icon">📥</span>
+              Download EXE Only
+            </a>
+            <p class="version">Direct executable • No install</p>
+          </div>
+        </div>
+
+        <div class="install-instructions">
+          <h3>Quick Start</h3>
+          <div class="steps">
+            <div class="step">
+              <div class="step-number">1</div>
+              <div class="step-content">
+                <h4>Download & Install</h4>
+                <p>Run the installer and follow the prompts</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-number">2</div>
+              <div class="step-content">
+                <h4>Restart Terminal</h4>
+                <p>Close and reopen your terminal/PowerShell</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-number">3</div>
+              <div class="step-content">
+                <h4>Start Using</h4>
+                <p>Type <code>giteasy push</code> in any project folder</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Usage Section -->
+    <section id="usage" class="usage">
+      <div class="container">
+        <h2 class="section-title">How to Use</h2>
+        <div class="usage-content">
+          <div class="terminal large">
+            <div class="terminal-header">
+              <span class="btn-close"></span>
+              <span class="btn-minimize"></span>
+              <span class="btn-maximize"></span>
+              <span class="terminal-title">Example Usage</span>
+            </div>
+            <div class="terminal-body">
+              <p class="comment"># Navigate to your project folder</p>
+              <p><span class="prompt">PS C:\></span> cd MyProject</p>
+              <br />
+              <p class="comment"># Run GitEasy</p>
+              <p><span class="prompt">PS C:\MyProject></span> giteasy push</p>
+              <br />
+              <p class="output">
+                Enter commit message:
+                <span class="user-input">Added new feature</span>
+              </p>
+              <p class="output">
+                Enter branch name (default: main):
+                <span class="user-input">main</span>
+              </p>
+              <br />
+              <p>🚀 Starting Git automation...</p>
+              <p>✅ Git already initialized</p>
+              <p>📝 Adding all files...</p>
+              <p>✅ Files added</p>
+              <p>💾 Committing with message: 'Added new feature'...</p>
+              <p>✅ Changes committed</p>
+              <p>🌿 Switching to branch 'main'...</p>
+              <p>✅ Branch set</p>
+              <p>🚀 Pushing to 'main'...</p>
+              <p class="success">✨ Successfully pushed to GitHub! ✨</p>
+            </div>
+          </div>
+
+          <div class="commands-list">
+            <h3>Available Commands</h3>
+            <div class="command-item">
+              <code>giteasy push</code>
+              <p>Push your code to GitHub (handles everything automatically)</p>
+            </div>
+            <div class="command-item">
+              <code>giteasy help</code>
+              <p>Show help message and usage information</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>GitEasy</h4>
+            <p>Making Git easier, one command at a time.</p>
+            <div class="social-links">
+              <a
+                href="https://github.com/yash-gautam9953/GIT-AUTOMATION-TOOL"
+                target="_blank"
+                title="GitHub"
+              >
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h4>Links</h4>
+            <ul>
+              <li>
+                <a href="https://github.com/yash-gautam9953/GIT-AUTOMATION-TOOL"
+                  >Source Code</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/yash-gautam9953/GIT-AUTOMATION-TOOL/releases"
+                  >Releases</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/yash-gautam9953/GIT-AUTOMATION-TOOL/issues"
+                  >Report Issue</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/yash-gautam9953/GIT-AUTOMATION-TOOL/blob/main/README.md"
+                  >Documentation</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Requirements</h4>
+            <ul>
+              <li>Windows 7 or later</li>
+              <li>Git installed</li>
+              <li>GitHub account</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; 2025 GitEasy by
+            <a href="https://github.com/yash-gautam9953" target="_blank"
+              >Yash Gautam</a
+            >
+          </p>
+          <p>MIT License • Free & Open Source</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
