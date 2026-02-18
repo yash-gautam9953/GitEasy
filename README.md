@@ -14,22 +14,22 @@ A simple CLI tool that pushes your code to GitHub with **just one command**!
 
 ## 📦 Installation
 
-### Option 1: Windows Installer (Recommended - One-Click Install) 🎯
+### Option 1: Windows Installer (One-Click Install)
 
-Download and run the installer - it automatically adds GitEasy to PATH!
+If you prefer a GUI installer (adds GitEasy to PATH for you), download the Windows installer:
 
-1. [**Download GitEasy Installer**](https://github.com/yash-gautam9953/GitEasy/releases/latest/download/GitEasy-Setup-1.0.exe) (or from [Releases](https://github.com/yash-gautam9953/GitEasy/releases))
-2. Run `GitEasy-Setup-1.0.exe`
-3. Click through the installer (it will automatically add to PATH)
-4. Open new terminal and use from anywhere:
+- Direct download (v1.0): https://github.com/yash-gautam9953/GitEasy/releases/download/v1.0/GitEasy-Setup-1.0.exe
+- Releases page (if you don't see an installer on the latest release): https://github.com/yash-gautam9953/GitEasy/releases
 
-```bash
+After installing, open a new terminal and run:
+
+```powershell
 giteasy push
 ```
 
-### Option 2: Quick Download
+### Option 2: Quick Download (Recommended for CLI users)
 
-Open your project folder in terminal and run:
+Open your project folder in terminal and download the latest binary from GitHub Releases.
 
 #### Windows
 
@@ -47,8 +47,8 @@ curl -L -o giteasy.exe https://github.com/yash-gautam9953/GitEasy/releases/lates
 
 Now use it:
 
-```bash
-./giteasy push
+```powershell
+.\giteasy.exe push
 ```
 
 #### Linux
@@ -82,7 +82,7 @@ Invoke-WebRequest -Uri "https://github.com/yash-gautam9953/GitEasy/releases/late
 Restart terminal, then use from anywhere:
 
 ```bash
-giteasy push
+giteasy.exe push
 ```
 
 #### Linux
@@ -116,6 +116,14 @@ go build -o giteasy
 
 ### If in Project Folder
 
+Windows (PowerShell):
+
+```powershell
+.\giteasy.exe push
+```
+
+Linux:
+
 ```bash
 ./giteasy push
 ```
@@ -129,7 +137,7 @@ giteasy push
 ### Example
 
 ```bash
-PS D:\MyProject> ./giteasy push
+PS D:\MyProject> .\giteasy.exe push
 Enter commit message: Added new feature
 Enter branch name (default: main): main
 

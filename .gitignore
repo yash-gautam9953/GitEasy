@@ -1,18 +1,25 @@
-# Source code (keep private)
-go.mod
-go.sum
+# Go modules (should be committed)
+# go.mod
+# go.sum
 
-# Binaries (don't push .exe files to repo)
-git-autopush
-
-# Go build artifacts
-*.o
-*.a
+# Go build outputs / binaries
+/bin/
+/dist/
+/build/
+*.exe
+*.dll
 *.so
-
-# Go test coverage
+*.dylib
+*.a
+*.o
 *.out
 coverage.html
+
+# If you generate specific binaries, ignore them explicitly
+giteasy
+giteasy.exe
+git-autopush
+git-autopush.exe
 
 # IDE
 .vscode/
